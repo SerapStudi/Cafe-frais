@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café frais</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- début "header" -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#accueil">Accueil</a>
+        <a href="#a propos">A Propos</a>
+        <a href="#menu">Menu</a>
+        <a href="#produits">Produits</a>
+        <a href="#avis">Avis</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="rechercher...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-1.png" alt="">
+            <div class="content">
+                <h3>article 01</h3>
+                <div class="prix">15,99 € </div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-2.png" alt="">
+            <div class="content">
+                <h3>article 02</h3>
+                <div class="prix">15,99 € </div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-3.png" alt="">
+            <div class="content">
+                <h3>article 03</h3>
+                <div class="prix">15,99 € </div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cart-item-4.png" alt="">
+            <div class="content">
+                <h3>article 04</h3>
+                <div class="prix">15,99 € </div>
+            </div>
+        </div>
+        <a  href="#" target="_blank" class="btn">Passer à la caisse</a>
+    </div>
+
+</header>
+
+<!-- fin "header" -->
+
+<!-- début "accueil"  -->
+
+<section class="accueil" id="accueil">
+
+    <div class="content">
+        <h3>café frais le matin</h3>
+        <p>Le café est la boisson la plus consommée dans le monde après l’eau. Il s’en boit 2,3 millions de tasses par minute ! Outre son goût et son côté convivial, le café est réputé pour ses bienfaits sur la santé.</p>
+        <a href="#" target="_blank"  class="btn">obtenez le vôtre maintenant</a>
+    </div>
+
+</section>
+
+<!-- fin "accueil"  -->
+
+<!-- début "a propos"  -->
+
+<section class="aPropos" id="a propos">
+
+    <h1 class="heading"> <span>a</span> propos </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about-img.jpeg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Qu'est-ce qui rend notre café spécial ? </h3>
+            <p>« Les cafés de spécialité  se définissent comme des boissons haut de gamme à base de café auxquelles le consommateur 
+                attribue une qualité unique, un goût et un caractère distincts et supérieurs comparés à une boisson ordinaire à base de café. Cette boisson est préparée en utilisant des grains de café vert cultivés dans des zones précises, et en répondant aux standards les plus exigeants en matière de production, de traitement, de torréfaction, 
+                de conservation et de préparation. »</p>
+                <a href="#" target="_blank" class="btn">en savoir plus</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- fin  "a propos"  -->
+
+<!-- début "menu"  -->
+
+<section class="menu" id="menu">
+
+    <h1 class="heading"> le <span>menu</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/menu-1.png" alt="">
+            <h3>Chai Latte</h3>
+            <div class="prix">15,99€ <span>20,99€</span></div>
+            <a href="#" target="_blank" class="btn">ajouter au panier</a> 
+        </div>
+
+        <div class="box">
+            <img src="images/menu-2.png" alt="">
+            <h3>Cappuccino</h3>
+            <!--<h3>sain et savoureux</h3>-->
+            <div class="prix">15,99€ <span>20,99€</span></div>
+            <a href="#" target="_blank" class="btn">ajouter au panier</a> 
+        </div>
+
+        <div class="box">
+            <img src="images/menu-3.png" alt="">
+            <h3>Cortado</h3>
+            <div class="prix">15,99€ <span>20,99€</span></div>
+            <a href="#" target="_blank" class="btn">ajouter au panier</a> 
+        </div>
+
+        <div class="box">
+            <img src="images/menu-4.png" alt="">
+            <h3>Espressino</h3>
+            <div class="prix">15,99€ <span>20,99€</span></div>
+            <a href="#" target="_blank" class="btn">ajouter au panier</a> 
+        </div>
+
+        <div class="box">
+            <img src="images/menu-5.png" alt="">
+            <h3>Macchiato</h3>
+            <div class="prix">15,99€ <span>20,99€</span></div>
+            <a href="#" target="_blank" class="btn">ajouter au panier</a> 
+        </div>
+
+        <div class="box">
+            <img src="images/menu-6.png" alt="">
+            <h3>Americano</h3>
+            <div class="prix">15,99€ <span>20,99€</span></div>
+            <a  href="#" target="_blank" class="btn">ajouter au panier</a> 
+        </div>
+
+    </div>
+
+</section>
+
+<!-- fin "menu"  -->
+
+<!-- début  "produits"  -->
+
+<section class="produits" id="produits">
+
+    <h1 class="heading"> les <span>produits</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>café frais nicaragua</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="prix">15,99€ <span>20,99€</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product-2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>café frais columbia</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="prix">15,99€ <span>20,99€</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>café frais peru</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="prix">15,99€ <span>20,99€</span></div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!--  fin partie "produits"  -->
+
+<!-- début partie "avis"  -->
+
+<section class="avis" id="avis">
+
+    <h1 class="heading"> avis <span>clients</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+             <p>Super produits avec une application et un site internet superbe je recommande vraiment j’adore cette marque ! 
+                Avec un service très réactif !</p> <br><br>
+            <img src="images/pic-1.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Je commande régulièrement grâce à l’application Nespresso et je n’ai jamais eu d’erreur de commande. 
+                Les livraisons sont rapide et le site très intuitif !</p><br><br>
+            <img src="images/pic-2.png" class="user" alt="">
+            <h3>celine montabone</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Un bonheur de boire un café qui fait qui respecte la planète et les producteurs.</p><br><br><br><br><br><br>
+            <img src="images/pic-3.png" class="user" alt="">
+            <h3>jean lionel</h3>
+             <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- fin "avis" -->
+
+
+
+<!-- début "blogs"  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> nos <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-1.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Café savoureux et rafraîchissant</a>
+                <span>par admin / 20 décembre 2020</span>
+                <p>Bienvenue sur notre blog ! </p>
+                <a href="#" target="_blank" class="btn">lire la suite</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-2.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Café savoureux et rafraîchissant</a>
+                <span>par admin / 07 mai 2021</span>
+                <p>Bienvenue sur notre blog ! </p>
+                <a href="#" target="_blank" class="btn">lire la suite</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-3.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Café savoureux et rafraîchissant</a>
+                <span>par admin / 20 janvier 2022 </span>
+                <p>Bienvenue sur notre blog ! </p>
+                <a href="#" target="_blank" class="btn">lire la suite</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- fin "blogs" -->
+
+<!-- début "contact"  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contactez</span> nous </h1>
+
+    <div class="row">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.144721626227!2d2.2922926148994223!3d48.85545064629412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1638902459601!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+        <form action="">
+            <h3>nous contacter</h3>
+               <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="nom">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="portable">
+            </div>
+      <!--     <input type="submit" value="envoyer le formulaire" class="btn"> -->
+            <a href="#" target="_blank" class="btn">Envoyer le formulaire</a>
+        </form>
+
+    </div>
+
+</section>
+
+<!-- fin "contact" -->
+
+<!-- début "footer"  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="http://www.facebook.com" target="_blank" class="fab fa-facebook-f"></a>
+        <a href="http://www.twitter.com" target="_blank" class="fab fa-twitter"></a>
+        <a href="http://www.instagram.com" target="_blank" class="fab fa-instagram"></a>
+        <a href="http://www.linkedin.com" target="_blank" class="fab fa-linkedin"></a>
+        <a href="http://www.pinterest.com" target="_blank" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+        <a href="#accueil">accueil</a>
+        <a href="#a propos">a propos</a>
+        <a href="#menu">menu</a>
+        <a href="#produits">produits</a>
+        <a href="#avis">avis</a>
+        <a href="#blogs">blogs</a>
+        <a href="#contact">contact</a>
+    </div>
+
+    <div class="credit">Crée par <span>Cafena</span> | Copyright © 2022</div>
+
+</section>
+
+<!-- fin "footer" -->
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
