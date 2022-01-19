@@ -13,7 +13,8 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
+   /* text-transform: capitalize;*/
+   text-transform: inherit;
     transition: .2s linear;
 }
 
@@ -557,13 +558,6 @@ section{
 .footer .credit span{
     color:var(--main-color);
 }
-
-
-
-
-
-
-
 
 
 
